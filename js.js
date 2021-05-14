@@ -4,8 +4,19 @@ let text ="";
 
 text = add(2,"3");
 text = Number("asd");
-    document.getElementById("demo").innerHTML = text;
+  
 
     function add(a,b){       
         return a/b;
     }
+
+function reverse(s){    
+
+    if(s.lenght < 2){        
+        return s;
+    }
+    let str = s.substring(1,s.lenght - 1);
+    return reverse(str) + s.charAt(0);
+}
+
+document.getElementById("demo").innerHTML = reverse(str);

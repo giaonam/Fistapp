@@ -1,0 +1,115 @@
+.header-container{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+/* begin nav1*/
+.nav1{
+    width: 100%;
+    height: 50px;
+    background-color: inherit;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav1 a{
+    text-decoration: none;
+    color: white;
+    font-family: serif;
+}
+
+.logo{
+    width: 200px;
+    height: 100%;
+    border-right: 1px white solid;    
+    
+}
+
+.location{
+    width: 200px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search{
+    position: relative;
+}
+
+.search input{
+    outline: none;
+    height: 25px;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+
+
+.cart{
+    width: 130px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px #8f8f8f solid;
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.cart:hover{
+    background-color: #8f8f8f;
+}
+
+.history{
+    width: 75px;
+    height: 100%;
+    border-right: 1px #8f8f8f solid;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.advertisement{
+    width: 300px;
+    height: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.advertisement a{
+    color: #fed100;
+}
+
+.news{
+    width: 70px;
+    height: 100%;
+    border-left: 1px solid #8f8f8f;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.qna{
+    width: 70px;
+    height: 100%;
+    border-left: 1px solid #8f8f8f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.game-app{
+    width: 70px;
+    height: 100%;
+    border-left: 1px solid #8f8f8f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*End nav1 */
+.nav2{
+    width: 100%;
+    height: 50px;
+    background-color: #fed100;
+}
